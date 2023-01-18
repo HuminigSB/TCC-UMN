@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:tcc/app/view/Pilha/pilha2.dart';
+import 'package:tcc/app/view/Pilha/pilha17.dart';
+import 'package:tcc/app/view/escolha.dart';
 import 'package:tcc/app/view/fundos.dart';
 
 import '../app.dart';
 
-class Pilha1 extends StatelessWidget {
-  const Pilha1({super.key});
+class Pilha16 extends StatelessWidget {
+  const Pilha16({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        const FundoPilha1(),
+        const FundoPilha11(),
         Opacity(
             opacity: 0.6,
             child: Column(
@@ -21,7 +22,7 @@ class Pilha1 extends StatelessWidget {
                   GestureDetector(
                       onTap: () {
                         Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context) => const Pilha2()));
+                            builder: (context) => const Pilha17()));
                       },
                       child: Container(
                         width: double.infinity,
@@ -29,7 +30,7 @@ class Pilha1 extends StatelessWidget {
                         color: verde,
                         child: const Center(
                             child: Text(
-                                'Instrutora: Bom dia futuros alunos da UMN sou a instrutora Jenner, minha turma irá demonstrar a função dos nós de pilha.',
+                                'Instrutora: Alex desempilhar.\nAlex: Descendo instrutora.',
                                 style: TextStyle(fontSize: 25))),
                       ))
                 ]))

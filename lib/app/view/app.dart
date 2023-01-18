@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:tcc/app/view/Arvore/arvore1.dart';
+import 'package:tcc/app/view/BadEnding/bad_ending1.dart';
 import 'package:tcc/app/view/Fila/fila1.dart';
 import 'package:tcc/app/view/Lista/lista1.dart';
 import 'package:tcc/app/view/Pilha/pilha1.dart';
+import 'package:tcc/app/view/escolha.dart';
 import 'package:tcc/app/view/login_page.dart';
 import 'package:tcc/app/view/Introducao/intro1.dart';
 
@@ -37,6 +39,8 @@ class App extends StatelessWidget {
         '/arvore': (context) => const Arvore1(),
         '/pilha': (context) => const Pilha1(),
         '/fila': (context) => const Fila1(),
+        '/badEnding': (context) => const BadEnding1(),
+        '/escolha': (context) => const Escolha(),
       },
     );
   }

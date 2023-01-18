@@ -64,9 +64,26 @@ flutter:
   assets:
     - assets\images\fachada.png
     - assets\images\auditorioApresentação.png
+    - assets\images\auditorio.png
     - assets\images\panfletoMostra.png
     - assets\images\panfletoMostraRunas.png
     - assets\images\auditorioZoom.png
+    - assets\images\PilhaFundo1.png
+    - assets\images\PilhaFundo2.png
+    - assets\images\PilhaFundo3.png
+    - assets\images\PilhaFundo4.png
+    - assets\images\PilhaFundo5.png
+    - assets\images\PilhaFundo6.png
+    - assets\images\PilhaFundo7.png
+    - assets\images\PilhaFundo8.png
+    - assets\images\PilhaFundo9.png
+    - assets\images\PilhaFundo10.png
+    - assets\images\PilhaFundo11.png
+    - assets\images\PilhaFundo12.png
+    - assets\images\PilhaFundo13.png
+    - assets\images\PilhaFundo14.png
+    - assets\images\bottonPilha.png
+    - assets\images\protoTipoFundo.png
   
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

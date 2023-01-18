@@ -7,19 +7,23 @@ class UsuarioControler {
   Usuario user = Usuario();
   static UsuarioControler instance = UsuarioControler();
 
-  void completarRota(num rota) {
+  Future completarRota(num rota) async {
+    var usuario = user.getUsuario();
     if (rota == 1) {
-      user.setLista(true);
+      user.setLista('true');
     }
     if (rota == 2) {
-      user.setArvore(true);
+      user.setArvore('true');
     }
     if (rota == 3) {
-      user.setPilha(true);
+      user.setPilha('true');
     }
     if (rota == 4) {
-      user.setFila(true);
+      user.setFila('true');
     }
+    var url = Uri.https(
+        '63c0d560376b9b2e646e3873.mockapi.io', '/UMN/Usuario/$usuario');
+    var response = await http.put(url, body: user.toJson());
   }
 
   bool rotasCompletas() {
@@ -29,8 +33,23 @@ class UsuarioControler {
         user.getFila());
   }
 
+  bool getLista() {
+    return user.getLista();
+  }
+
+  bool getArvore() {
+    return user.getArvore();
+  }
+
+  bool getPilha() {
+    return user.getPilha();
+  }
+
+  bool getFila() {
+    return user.getLista();
+  }
+
   Future<bool> logaUsuario(String usuario) async {
-    //pusha do banco com esse nome e da os set no usuario instanciado
     var url = Uri.https(
         '63c0d560376b9b2e646e3873.mockapi.io', '/UMN/Usuario/$usuario');
     var response = await http.get(url);
