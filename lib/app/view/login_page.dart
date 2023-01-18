@@ -14,7 +14,7 @@ class _LoginState extends State<Login> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(centerTitle: true, title: const Text('Login')),
-        body: Container(
+        body: SizedBox(
             width: double.infinity,
             height: double.infinity,
             child: Padding(
@@ -27,7 +27,7 @@ class _LoginState extends State<Login> {
                       onChanged: (text) {
                         usuario = text;
                       },
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                           labelText: 'Usuário', border: OutlineInputBorder()),
                     ),
                     Container(
@@ -41,10 +41,10 @@ class _LoginState extends State<Login> {
                             onPressed: () async {
                               if (await UsuarioControler.instance
                                   .logaUsuario(usuario)) {
-                                Navigator.of(context).pushNamed('/tela');
+                                Navigator.of(context).pushNamed('/intro');
                               }
                             },
-                            child: Text('Entrar'),
+                            child: const Text('Entrar'),
                           ),
                           Container(
                             width: 15,
@@ -68,7 +68,7 @@ class _LoginState extends State<Login> {
                                 ),
                               );
                             },
-                            child: Text('criar usuário'),
+                            child: const Text('criar usuário'),
                           )
                         ]),
                   ]),

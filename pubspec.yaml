@@ -64,6 +64,9 @@ flutter:
   assets:
     - assets\images\fachada.png
     - assets\images\auditorioApresentação.png
+    - assets\images\panfletoMostra.png
+    - assets\images\panfletoMostraRunas.png
+    - assets\images\auditorioZoom.png
   
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
