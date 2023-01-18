@@ -250,6 +250,33 @@ class FundoPilha14 extends StatelessWidget {
   }
 }
 
+class FundoBadEnding extends StatelessWidget {
+  const FundoBadEnding({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\fundoBadEnding.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoFormatura extends StatelessWidget {
+  const FundoFormatura({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\formatura.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
 class FundoPlace extends StatelessWidget {
   const FundoPlace({super.key});
 

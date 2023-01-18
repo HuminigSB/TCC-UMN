@@ -83,6 +83,9 @@ flutter:
     - assets\images\PilhaFundo13.png
     - assets\images\PilhaFundo14.png
     - assets\images\bottonPilha.png
+    - assets\images\fundoBadEnding.png
+    - assets\images\formatura.png
+    - assets\images\noctis.png
     - assets\images\protoTipoFundo.png
   
   # An image asset can refer to one or more resolution-specific "variants", see
