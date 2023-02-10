@@ -9,7 +9,8 @@ class BadEnding2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
+    return Scaffold(
+        body: Stack(
       children: [
         const FundoFormatura(),
         Opacity(
@@ -26,14 +27,15 @@ class BadEnding2 extends StatelessWidget {
                       child: Container(
                         width: double.infinity,
                         height: MediaQuery.of(context).size.height / 3,
-                        color: verde,
+                        color: fundoTexto,
                         child: const Center(
                             child: Text(
                                 '"Se formou e se tornou parte de uma estrutura de dados"',
-                                style: TextStyle(fontSize: 25))),
+                                style:
+                                    TextStyle(fontSize: 25, color: corTexto))),
                       ))
                 ]))
       ],
-    );
+    ));
   }
 }

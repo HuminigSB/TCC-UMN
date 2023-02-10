@@ -9,7 +9,8 @@ class Intro2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
+    return Scaffold(
+        body: Stack(
       children: [
         const FundoIntro1(),
         Center(
@@ -32,13 +33,14 @@ class Intro2 extends StatelessWidget {
                       child: Container(
                         width: double.infinity,
                         height: MediaQuery.of(context).size.height / 3,
-                        color: verde,
+                        color: fundoTexto,
                         child: const Center(
                             child: Text('(O que é esse panfleto?)',
-                                style: TextStyle(fontSize: 25))),
+                                style:
+                                    TextStyle(fontSize: 25, color: corTexto))),
                       ))
                 ]))
       ],
-    );
+    ));
   }
 }

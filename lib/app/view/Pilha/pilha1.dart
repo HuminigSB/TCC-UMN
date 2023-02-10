@@ -9,7 +9,8 @@ class Pilha1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
+    return Scaffold(
+        body: Stack(
       children: [
         const FundoPilha1(),
         Opacity(
@@ -26,14 +27,15 @@ class Pilha1 extends StatelessWidget {
                       child: Container(
                         width: double.infinity,
                         height: MediaQuery.of(context).size.height / 3,
-                        color: verde,
+                        color: fundoTexto,
                         child: const Center(
                             child: Text(
                                 'Instrutora: Bom dia futuros alunos da UMN sou a instrutora Jenner, minha turma irá demonstrar a função dos nós de pilha.',
-                                style: TextStyle(fontSize: 25))),
+                                style:
+                                    TextStyle(fontSize: 25, color: corTexto))),
                       ))
                 ]))
       ],
-    );
+    ));
   }
 }

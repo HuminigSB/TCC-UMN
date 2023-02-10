@@ -10,7 +10,8 @@ class Pilha12 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
+    return Scaffold(
+        body: Stack(
       children: [
         const FundoPilha10(),
         Opacity(
@@ -27,14 +28,15 @@ class Pilha12 extends StatelessWidget {
                       child: Container(
                         width: double.infinity,
                         height: MediaQuery.of(context).size.height / 3,
-                        color: verde,
+                        color: fundoTexto,
                         child: const Center(
                             child: Text(
                                 'Instrutora: Observem que no momento nem Johan nem Alex podem sair, apenas Dominique consegue sair nesse momento. Dominique desempilhar.\nDominique: A caminho do solo instrutora.',
-                                style: TextStyle(fontSize: 25))),
+                                style:
+                                    TextStyle(fontSize: 25, color: corTexto))),
                       ))
                 ]))
       ],
-    );
+    ));
   }
 }

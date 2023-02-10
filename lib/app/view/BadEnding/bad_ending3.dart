@@ -8,7 +8,8 @@ class BadEnding3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
+    return Scaffold(
+        body: Stack(
       children: [
         SizedBox(
           width: MediaQuery.of(context).size.width,
@@ -41,7 +42,7 @@ class BadEnding3 extends StatelessWidget {
                       child: Container(
                           width: double.infinity,
                           height: MediaQuery.of(context).size.height / 5,
-                          color: verde,
+                          color: fundoTexto,
                           child: Center(
                               child: Column(children: [
                             const Center(
@@ -50,10 +51,11 @@ class BadEnding3 extends StatelessWidget {
                             const Center(
                                 child: Text(
                                     '(clique para retornar as escolhas e tentar um caminho diferente)',
-                                    style: TextStyle(fontSize: 25)))
+                                    style: TextStyle(
+                                        fontSize: 25, color: corTexto)))
                           ]))))
                 ]))
       ],
-    );
+    ));
   }
 }

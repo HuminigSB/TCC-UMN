@@ -41,7 +41,12 @@ class _LoginState extends State<Login> {
                             onPressed: () async {
                               if (await UsuarioControler.instance
                                   .logaUsuario(usuario)) {
-                                Navigator.of(context).pushNamed('/intro');
+                                if (UsuarioControler.instance
+                                    .algumaRotaCompleta()) {
+                                  Navigator.of(context).pushNamed('/escolha');
+                                } else {
+                                  Navigator.of(context).pushNamed('/intro');
+                                }
                               }
                             },
                             child: const Text('Entrar'),

@@ -33,6 +33,13 @@ class UsuarioControler {
         user.getFila());
   }
 
+  bool algumaRotaCompleta() {
+    return (user.getLista() |
+        user.getArvore() |
+        user.getPilha() |
+        user.getFila());
+  }
+
   bool getLista() {
     return user.getLista();
   }

@@ -8,7 +8,7 @@ import 'package:tcc/app/view/escolha.dart';
 import 'package:tcc/app/view/login_page.dart';
 import 'package:tcc/app/view/Introducao/intro1.dart';
 
-final Map<int, Color> verdeMap = {
+final Map<int, Color> fundoTextoMap = {
   50: Colors.lightGreen.shade50,
   100: Colors.lightGreen.shade100,
   200: Colors.lightGreen.shade200,
@@ -22,7 +22,10 @@ final Map<int, Color> verdeMap = {
 };
 
 final MaterialColor verde =
-    MaterialColor(const Color.fromARGB(255, 0, 253, 13).value, verdeMap);
+    MaterialColor(const Color.fromARGB(255, 0, 253, 13).value, fundoTextoMap);
+
+const Color fundoTexto = Colors.black;
+const Color corTexto = Colors.white;
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);

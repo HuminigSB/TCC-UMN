@@ -9,7 +9,8 @@ class Intro6 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
+    return Scaffold(
+        body: Stack(
       children: [
         const FundoIntro2(),
         Opacity(
@@ -26,14 +27,15 @@ class Intro6 extends StatelessWidget {
                       child: Container(
                         width: double.infinity,
                         height: MediaQuery.of(context).size.height / 3,
-                        color: verde,
+                        color: fundoTexto,
                         child: const Center(
                             child: Text(
                                 'Diretor: Bem vindos a UMN, a Universidade Multiversal de Nós\nEu: (Universidade de Nós???)',
-                                style: TextStyle(fontSize: 25))),
+                                style:
+                                    TextStyle(fontSize: 25, color: corTexto))),
                       ))
                 ]))
       ],
-    );
+    ));
   }
 }

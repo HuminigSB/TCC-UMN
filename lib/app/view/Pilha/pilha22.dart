@@ -11,7 +11,8 @@ class Pilha22 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double altura = MediaQuery.of(context).size.height / 3;
-    return Stack(
+    return Scaffold(
+        body: Stack(
       children: [
         const FundoPilha13(),
         Opacity(
@@ -26,11 +27,12 @@ class Pilha22 extends StatelessWidget {
                       child: Column(children: [
                         Container(
                           height: (altura / 3) * 2,
-                          color: verde,
+                          color: fundoTexto,
                           child: const Center(
                               child: Text(
                                   'Instrutora: Quem decidiu por fazer o curso de pilha assine a folha na direita da porta de saida, quem ainda não tem certeza de qual curso vai fazer pegue um botton na esquerda',
-                                  style: TextStyle(fontSize: 25))),
+                                  style: TextStyle(
+                                      fontSize: 25, color: corTexto))),
                         ),
                         GestureDetector(
                             onTap: () {
@@ -39,12 +41,13 @@ class Pilha22 extends StatelessWidget {
                             child: Container(
                               decoration: BoxDecoration(
                                   border: Border.all(color: Colors.blueAccent),
-                                  color: verde),
+                                  color: fundoTexto),
                               height: (altura / 3) / 2,
                               width: MediaQuery.of(context).size.width,
                               child: const Center(
                                   child: Text('Assinar folha',
-                                      style: TextStyle(fontSize: 25))),
+                                      style: TextStyle(
+                                          fontSize: 25, color: corTexto))),
                             )),
                         GestureDetector(
                             onTap: () {
@@ -54,16 +57,17 @@ class Pilha22 extends StatelessWidget {
                             child: Container(
                               decoration: BoxDecoration(
                                   border: Border.all(color: Colors.blueAccent),
-                                  color: verde),
+                                  color: fundoTexto),
                               height: (altura / 3) / 2,
                               width: MediaQuery.of(context).size.width,
                               child: const Center(
                                   child: Text('Pegar botton',
-                                      style: TextStyle(fontSize: 25))),
+                                      style: TextStyle(
+                                          fontSize: 25, color: corTexto))),
                             )),
                       ]))
                 ]))
       ],
-    );
+    ));
   }
 }

@@ -10,7 +10,8 @@ class Pilha13 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
+    return Scaffold(
+        body: Stack(
       children: [
         const FundoPilha9(),
         Opacity(
@@ -27,12 +28,14 @@ class Pilha13 extends StatelessWidget {
                       child: Container(
                         width: double.infinity,
                         height: MediaQuery.of(context).size.height / 3,
-                        color: verde,
+                        color: fundoTexto,
                         child: const Center(
-                            child: Text('...', style: TextStyle(fontSize: 25))),
+                            child: Text('...',
+                                style:
+                                    TextStyle(fontSize: 25, color: corTexto))),
                       ))
                 ]))
       ],
-    );
+    ));
   }
 }

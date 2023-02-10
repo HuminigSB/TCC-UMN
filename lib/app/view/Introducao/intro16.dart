@@ -9,7 +9,8 @@ class Intro16 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
+    return Scaffold(
+        body: Stack(
       children: [
         const FundoIntro3(),
         Opacity(
@@ -26,14 +27,15 @@ class Intro16 extends StatelessWidget {
                       child: Container(
                         width: double.infinity,
                         height: MediaQuery.of(context).size.height / 3,
-                        color: verde,
+                        color: fundoTexto,
                         child: const Center(
                             child: Text(
                                 'Diretor: Você veio parar na dimensão das estruturas de dados normalmente só tem nós aqui, mas de tempos em tempos acontece de um humano ser escolhido pra vir pra cá. Não sabemos como isso funciona exatamente e nem se você será capaz de voltar para o seu mundo, mas se eu fosse você prestava muita atenção em todos os cursos pois se você não conseguir voltar, você não vai querer ser um nó sem proposito',
-                                style: TextStyle(fontSize: 25))),
+                                style:
+                                    TextStyle(fontSize: 25, color: corTexto))),
                       ))
                 ]))
       ],
-    );
+    ));
   }
 }

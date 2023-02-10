@@ -16,12 +16,13 @@ class EscolhaGrafo extends StatelessWidget {
           },
           child: Container(
             decoration: BoxDecoration(
-                border: Border.all(color: Colors.blueAccent), color: verde),
+                border: Border.all(color: Colors.blueAccent),
+                color: fundoTexto),
             height: (altura / 3),
             width: MediaQuery.of(context).size.width,
             child: const Center(
                 child: Text('Ir para mostra de pilha',
-                    style: TextStyle(fontSize: 25))),
+                    style: TextStyle(fontSize: 25, color: corTexto))),
           ));
     }
     return Container();
@@ -66,7 +67,8 @@ class Escolha extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double altura = MediaQuery.of(context).size.height / 3;
-    return Stack(
+    return Scaffold(
+        body: Stack(
       children: [
         const FundoEscolha(),
         SizedBox(
@@ -75,10 +77,11 @@ class Escolha extends StatelessWidget {
             child: Stack(children: [
               Opacity(
                 opacity: 0.6,
-                child: Container(color: verde),
+                child: Container(color: fundoTexto),
               ),
               Column(children: [
-                Text('Bottons', style: TextStyle(fontSize: 15)),
+                Text('Bottons',
+                    style: const TextStyle(fontSize: 15, color: corTexto)),
                 const Bottons()
               ])
             ])),
@@ -94,10 +97,11 @@ class Escolha extends StatelessWidget {
                       child: Column(children: [
                         Container(
                           height: (altura / 3),
-                          color: verde,
+                          color: fundoTexto,
                           child: const Center(
                               child: Text('(Umh qual mostra eu vejo agora?)',
-                                  style: TextStyle(fontSize: 25))),
+                                  style: TextStyle(
+                                      fontSize: 25, color: corTexto))),
                         ),
                         Row(children: [
                           GestureDetector(
@@ -108,12 +112,13 @@ class Escolha extends StatelessWidget {
                                 decoration: BoxDecoration(
                                     border:
                                         Border.all(color: Colors.blueAccent),
-                                    color: verde),
+                                    color: fundoTexto),
                                 height: (altura / 3) / 2,
                                 width: MediaQuery.of(context).size.width / 2,
                                 child: const Center(
                                     child: Text('Ir para mostra de lista',
-                                        style: TextStyle(fontSize: 25))),
+                                        style: TextStyle(
+                                            fontSize: 25, color: corTexto))),
                               )),
                           GestureDetector(
                               onTap: () {
@@ -123,12 +128,13 @@ class Escolha extends StatelessWidget {
                                 decoration: BoxDecoration(
                                     border:
                                         Border.all(color: Colors.blueAccent),
-                                    color: verde),
+                                    color: fundoTexto),
                                 height: (altura / 3) / 2,
                                 width: MediaQuery.of(context).size.width / 2,
                                 child: const Center(
                                     child: Text('Ir para mostra de arvore',
-                                        style: TextStyle(fontSize: 25))),
+                                        style: TextStyle(
+                                            fontSize: 25, color: corTexto))),
                               )),
                         ]),
                         Row(children: [
@@ -140,12 +146,13 @@ class Escolha extends StatelessWidget {
                                 decoration: BoxDecoration(
                                     border:
                                         Border.all(color: Colors.blueAccent),
-                                    color: verde),
+                                    color: fundoTexto),
                                 height: (altura / 3) / 2,
                                 width: MediaQuery.of(context).size.width / 2,
                                 child: const Center(
                                     child: Text('Ir para mostra de pilha',
-                                        style: TextStyle(fontSize: 25))),
+                                        style: TextStyle(
+                                            fontSize: 25, color: corTexto))),
                               )),
                           GestureDetector(
                               onTap: () {
@@ -155,18 +162,19 @@ class Escolha extends StatelessWidget {
                                 decoration: BoxDecoration(
                                     border:
                                         Border.all(color: Colors.blueAccent),
-                                    color: verde),
+                                    color: fundoTexto),
                                 height: (altura / 3) / 2,
                                 width: MediaQuery.of(context).size.width / 2,
                                 child: const Center(
                                     child: Text('Ir para mostra de fila',
-                                        style: TextStyle(fontSize: 25))),
+                                        style: TextStyle(
+                                            fontSize: 25, color: corTexto))),
                               )),
                         ]),
                         const EscolhaGrafo(),
                       ]))
                 ]))
       ],
-    );
+    ));
   }
 }
