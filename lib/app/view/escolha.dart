@@ -76,7 +76,7 @@ class Escolha extends StatelessWidget {
             height: MediaQuery.of(context).size.height / 5,
             child: Stack(children: [
               Opacity(
-                opacity: 0.6,
+                opacity: 0.9,
                 child: Container(color: fundoTexto),
               ),
               Column(children: [
@@ -86,7 +86,7 @@ class Escolha extends StatelessWidget {
               ])
             ])),
         Opacity(
-            opacity: 0.6,
+            opacity: 0.9,
             child: Column(
                 mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.end,

@@ -21,7 +21,7 @@ class Intro3 extends StatelessWidget {
                     image: AssetImage(
                         'assets\\images\\panfletoMostraRunas.png')))),
         Opacity(
-            opacity: 0.6,
+            opacity: 0.9,
             child: Column(
                 mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.end,

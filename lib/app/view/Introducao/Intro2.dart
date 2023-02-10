@@ -20,7 +20,7 @@ class Intro2 extends StatelessWidget {
                 child: const Image(
                     image: AssetImage('assets\\images\\panfletoMostra.png')))),
         Opacity(
-            opacity: 0.6,
+            opacity: 0.9,
             child: Column(
                 mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.end,

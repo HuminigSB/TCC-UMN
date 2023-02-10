@@ -14,7 +14,7 @@ class Pilha8 extends StatelessWidget {
       children: [
         const FundoPilha7(),
         Opacity(
-            opacity: 0.6,
+            opacity: 0.9,
             child: Column(
                 mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.end,
