@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:tcc/app/view/Pilha/pilha22.dart';
-import 'package:tcc/app/view/escolha.dart';
 import 'package:tcc/app/view/fundos.dart';
 
 import '../app.dart';
@@ -27,7 +26,7 @@ class Pilha21 extends StatelessWidget {
                       },
                       child: Container(
                         width: double.infinity,
-                        height: MediaQuery.of(context).size.height / 3,
+                        height: MediaQuery.of(context).size.height / 4,
                         color: fundoTexto,
                         child: const Center(
                             child: Text(

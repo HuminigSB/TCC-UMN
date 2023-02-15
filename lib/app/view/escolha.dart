@@ -34,7 +34,6 @@ class Bottons extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double altura = MediaQuery.of(context).size.height / 3;
     if (UsuarioControler.instance.getPilha()) {
       return Center(
           child: Container(
@@ -132,7 +131,7 @@ class Escolha extends StatelessWidget {
                                 height: (altura / 3) / 2,
                                 width: MediaQuery.of(context).size.width / 2,
                                 child: const Center(
-                                    child: Text('Ir para mostra de arvore',
+                                    child: Text('Ir para mostra de árvore',
                                         style: TextStyle(
                                             fontSize: 25, color: corTexto))),
                               )),

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:tcc/app/controller/usuario_controller.dart';
-import 'package:tcc/app/view/escolha.dart';
 import 'package:tcc/app/view/fundos.dart';
 
 import '../app.dart';
