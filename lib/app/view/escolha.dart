@@ -34,6 +34,29 @@ class Bottons extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    if (UsuarioControler.instance.getPilha() &&
+        UsuarioControler.instance.getArvore()) {
+      return Center(
+          child: Row(children: [
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonArvore.png'),
+                  fit: BoxFit.fill),
+            )),
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonPilha.png'),
+                  fit: BoxFit.fill),
+            ))
+      ]));
+    }
+
     if (UsuarioControler.instance.getPilha()) {
       return Center(
           child: Container(
@@ -45,14 +68,15 @@ class Bottons extends StatelessWidget {
                     fit: BoxFit.fill),
               )));
     }
-    if (UsuarioControler.instance.getPilha()) {
+
+    if (UsuarioControler.instance.getArvore()) {
       return Center(
           child: Container(
               height: MediaQuery.of(context).size.width / 3 / 4,
               width: MediaQuery.of(context).size.width / 3 / 4,
               foregroundDecoration: const BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage('assets\\images\\bottonPilha.png'),
+                    image: AssetImage('assets\\images\\bottonArvore.png'),
                     fit: BoxFit.fill),
               )));
     }

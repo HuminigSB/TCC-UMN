@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:tcc/app/view/Arvore/arvore2.dart';
+import 'package:tcc/app/view/Arvore/arvore20.dart';
 import 'package:tcc/app/view/fundos.dart';
 
 import '../app.dart';
 
-class Arvore1 extends StatelessWidget {
-  const Arvore1({super.key});
+class Arvore19 extends StatelessWidget {
+  const Arvore19({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         body: Stack(
       children: [
-        const FundoArvore1(),
+        const FundoArvoreErgdulg(),
         Opacity(
             opacity: 0.9,
             child: Column(
@@ -22,7 +22,7 @@ class Arvore1 extends StatelessWidget {
                   GestureDetector(
                       onTap: () {
                         Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context) => const Arvore2()));
+                            builder: (context) => const Arvore20()));
                       },
                       child: Container(
                         width: double.infinity,
@@ -30,7 +30,7 @@ class Arvore1 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Instrutora: Bom dia futuros alunos da UMN sou a instrutora Alice, minha turma irá demonstrar a função dos nós de árvore.',
+                                'Ergdulg: Como sou a raiz da árvore, minha altura é a altura da árvore ou seja 2.',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

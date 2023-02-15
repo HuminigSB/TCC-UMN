@@ -250,6 +250,186 @@ class FundoPilha14 extends StatelessWidget {
   }
 }
 
+class FundoArvore1 extends StatelessWidget {
+  const FundoArvore1({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\ArvoreFundo1.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoArvore2 extends StatelessWidget {
+  const FundoArvore2({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\ArvoreFundo2.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoArvore3 extends StatelessWidget {
+  const FundoArvore3({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\ArvoreFundo3.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoArvore4 extends StatelessWidget {
+  const FundoArvore4({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\ArvoreFundo4.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoArvore5 extends StatelessWidget {
+  const FundoArvore5({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\ArvoreFundo5.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoArvore6 extends StatelessWidget {
+  const FundoArvore6({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\ArvoreFundo6.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoArvore7 extends StatelessWidget {
+  const FundoArvore7({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\ArvoreFundo7.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoArvoreAlbeoric extends StatelessWidget {
+  const FundoArvoreAlbeoric({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\AlbeoricFala.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoArvoreHeico extends StatelessWidget {
+  const FundoArvoreHeico({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\heicoFala.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoArvoreZugan extends StatelessWidget {
+  const FundoArvoreZugan({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\zuganFala.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoArvoreBofzuik extends StatelessWidget {
+  const FundoArvoreBofzuik({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\BofzuikFala.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoArvoreErgdulg extends StatelessWidget {
+  const FundoArvoreErgdulg({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\ErgdulgFala.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoArvoreXyugaso extends StatelessWidget {
+  const FundoArvoreXyugaso({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\XyugasoFala.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
 class FundoBadEnding extends StatelessWidget {
   const FundoBadEnding({super.key});
 

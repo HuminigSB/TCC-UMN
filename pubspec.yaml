@@ -82,7 +82,21 @@ flutter:
     - assets\images\PilhaFundo12.png
     - assets\images\PilhaFundo13.png
     - assets\images\PilhaFundo14.png
+    - assets\images\ArvoreFundo1.png
+    - assets\images\ArvoreFundo2.png
+    - assets\images\ArvoreFundo3.png
+    - assets\images\ArvoreFundo4.png
+    - assets\images\ArvoreFundo5.png
+    - assets\images\ArvoreFundo6.png
+    - assets\images\ArvoreFundo7.png
+    - assets\images\AlbeoricFala.png
+    - assets\images\heicoFala.png
+    - assets\images\zuganFala.png
+    - assets\images\BofzuikFala.png
+    - assets\images\ErgdulgFala.png
+    - assets\images\XyugasoFala.png
     - assets\images\bottonPilha.png
+    - assets\images\bottonArvore.png
     - assets\images\fundoBadEnding.png
     - assets\images\formatura.png
     - assets\images\noctis.png
