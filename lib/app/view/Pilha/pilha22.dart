@@ -35,6 +35,7 @@ class Pilha22 extends StatelessWidget {
                         ),
                         GestureDetector(
                             onTap: () {
+                              UsuarioControler.instance.completarRota(3);
                               Navigator.of(context).pushNamed('/badEnding');
                             },
                             child: Container(
