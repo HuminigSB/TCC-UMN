@@ -53,7 +53,7 @@ class UsuarioControler {
   }
 
   bool getFila() {
-    return user.getLista();
+    return user.getFila();
   }
 
   Future<bool> logaUsuario(String usuario) async {
