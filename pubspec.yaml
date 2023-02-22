@@ -120,6 +120,21 @@ flutter:
     - assets\images\ListaGiltaba.png
     - assets\images\ListaSubs1.png
     - assets\images\ListaSubs2.png
+    - assets\images\grafo1.png
+    - assets\images\grafo2.png
+    - assets\images\grafo3.png
+    - assets\images\grafoAdanxohad.png
+    - assets\images\grafoCurugaer.png
+    - assets\images\grafoDuesror.png
+    - assets\images\grafoGravi.png
+    - assets\images\grafoRiobi.png
+    - assets\images\grafoDesconexo.png
+    - assets\images\grafoDesconexo1sub1.png
+    - assets\images\grafoDesconexo1sub2.png
+    - assets\images\grafoDesconexo2.png
+    - assets\images\grafoDesconexo2Fala.png
+    - assets\images\grafoTurma.png
+    - assets\images\grafoCaminhoCurto.png
     - assets\images\bottonLista.png
     - assets\images\bottonPilha.png
     - assets\images\bottonArvore.png

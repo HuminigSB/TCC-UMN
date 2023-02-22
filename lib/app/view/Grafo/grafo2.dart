@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:tcc/app/view/Grafo/grafo2.dart';
+import 'package:tcc/app/view/Grafo/grafo3.dart';
 import 'package:tcc/app/view/fundos.dart';
 
 import '../app.dart';
 
-class Grafo1 extends StatelessWidget {
-  const Grafo1({super.key});
+class Grafo2 extends StatelessWidget {
+  const Grafo2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,15 +22,14 @@ class Grafo1 extends StatelessWidget {
                   GestureDetector(
                       onTap: () {
                         Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context) => const Grafo2()));
+                            builder: (context) => const Grafo3()));
                       },
                       child: Container(
                         width: double.infinity,
                         height: MediaQuery.of(context).size.height / 4,
                         color: fundoTexto,
                         child: const Center(
-                            child: Text(
-                                'Instrutora: Sou a instrutora Byoenien e minha turma irá demonstrar o funcionamento de grafo.',
+                            child: Text('Instrutora: Turma pra pscina.',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

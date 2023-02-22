@@ -761,6 +761,213 @@ class FundoListaFim extends StatelessWidget {
   }
 }
 
+class FundoGrafo1 extends StatelessWidget {
+  const FundoGrafo1({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafo1.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGrafo2 extends StatelessWidget {
+  const FundoGrafo2({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafo2.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGrafo3 extends StatelessWidget {
+  const FundoGrafo3({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafo3.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGrafoAdanxohad extends StatelessWidget {
+  const FundoGrafoAdanxohad({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafoAdanxohad.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGrafoDuesror extends StatelessWidget {
+  const FundoGrafoDuesror({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafoDuesror.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGrafoGravi extends StatelessWidget {
+  const FundoGrafoGravi({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafoGravi.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGrafoRiobi extends StatelessWidget {
+  const FundoGrafoRiobi({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafoRiobi.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGrafoCurugaer extends StatelessWidget {
+  const FundoGrafoCurugaer({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafoCurugaer.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGrafoTurma extends StatelessWidget {
+  const FundoGrafoTurma({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafoTurma.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGrafoCaminhoCurto extends StatelessWidget {
+  const FundoGrafoCaminhoCurto({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafoCaminhoCurto.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGrafoDesconexo extends StatelessWidget {
+  const FundoGrafoDesconexo({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafoDesconexo.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGrafoDesconexo1sub1 extends StatelessWidget {
+  const FundoGrafoDesconexo1sub1({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafoDesconexo1sub1.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGrafoDesconexo1sub2 extends StatelessWidget {
+  const FundoGrafoDesconexo1sub2({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafoDesconexo1sub2.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGrafoDesconexo2 extends StatelessWidget {
+  const FundoGrafoDesconexo2({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafoDesconexo2.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGrafoDesconexo2Fala extends StatelessWidget {
+  const FundoGrafoDesconexo2Fala({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\grafoDesconexo2Fala.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
 class FundoBadEnding extends StatelessWidget {
   const FundoBadEnding({super.key});
 
@@ -784,20 +991,6 @@ class FundoFormatura extends StatelessWidget {
         foregroundDecoration: const BoxDecoration(
       image: DecorationImage(
           image: AssetImage('assets\\images\\formatura.png'), fit: BoxFit.fill),
-    ));
-  }
-}
-
-class FundoPlace extends StatelessWidget {
-  const FundoPlace({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-        foregroundDecoration: const BoxDecoration(
-      image: DecorationImage(
-          image: AssetImage('assets\\images\\protoTipoFundo.png'),
-          fit: BoxFit.fill),
     ));
   }
 }
