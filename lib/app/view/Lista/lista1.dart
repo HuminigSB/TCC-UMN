@@ -29,7 +29,7 @@ class Lista1 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Instrutora: Bom dia futuros alunos da UMN sou a instrutora Muzbao, e liderarei a demonstração de lista.',
+                                'Instrutora: Bom dia sou a instrutora Muzbao, e liderarei a demonstração de lista.',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

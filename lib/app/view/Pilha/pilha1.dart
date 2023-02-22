@@ -30,7 +30,7 @@ class Pilha1 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Instrutora: Bom dia futuros alunos da UMN sou a instrutora Jenner, minha turma irá demonstrar a função dos nós de pilha.',
+                                'Instrutora: Bom dia futuros alunos da UMN, quantos rostos bonitos, sou a instrutora Jenner e minha turma irá demonstrar a função dos nós de pilha.',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))
