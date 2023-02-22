@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:tcc/app/view/Fila/fila2.dart';
+import 'package:tcc/app/view/Fila/fila15.dart';
 import 'package:tcc/app/view/fundos.dart';
 
 import '../app.dart';
 
-class Fila1 extends StatelessWidget {
-  const Fila1({super.key});
+class Fila14 extends StatelessWidget {
+  const Fila14({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         body: Stack(
       children: [
-        const FundoFila1(),
+        const FundoFilaDaece(),
         Opacity(
             opacity: 0.9,
             child: Column(
@@ -22,15 +22,14 @@ class Fila1 extends StatelessWidget {
                   GestureDetector(
                       onTap: () {
                         Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context) => const Fila2()));
+                            builder: (context) => const Fila15()));
                       },
                       child: Container(
                         width: double.infinity,
                         height: MediaQuery.of(context).size.height / 4,
                         color: fundoTexto,
                         child: const Center(
-                            child: Text(
-                                'Instrutora: Bom dia futuros alunos da UMN sou a instrutora Veci, minha turma irá demonstrar a função dos nós de fila.',
+                            child: Text('Turma: Quatro nós!',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

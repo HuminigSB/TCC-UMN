@@ -95,8 +95,19 @@ flutter:
     - assets\images\BofzuikFala.png
     - assets\images\ErgdulgFala.png
     - assets\images\XyugasoFala.png
+    - assets\images\Fila1.png
+    - assets\images\Fila2.png
+    - assets\images\Fila3.png
+    - assets\images\Fila4.png
+    - assets\images\Fila5.png
+    - assets\images\Fila6.png
+    - assets\images\Fila7.png
+    - assets\images\Fila8.png
+    - assets\images\FilaAnwudak.png
+    - assets\images\FilaDaece.png
     - assets\images\bottonPilha.png
     - assets\images\bottonArvore.png
+    - assets\images\bottonFila.png
     - assets\images\fundoBadEnding.png
     - assets\images\formatura.png
     - assets\images\noctis.png
