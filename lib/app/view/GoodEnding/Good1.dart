@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:tcc/app/view/GoodEnding/Good2.dart';
+import 'package:tcc/app/view/app.dart';
 import 'package:tcc/app/view/fundos.dart';
 
-import '../app.dart';
-
-class Grafo35 extends StatelessWidget {
-  const Grafo35({super.key});
+class Good1 extends StatelessWidget {
+  const Good1({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class Grafo35 extends StatelessWidget {
     return Scaffold(
         body: Stack(
       children: [
-        const FundoGrafo3(),
+        const FundoEscolha(),
         Opacity(
             opacity: 0.9,
             child: Column(
@@ -28,13 +28,13 @@ class Grafo35 extends StatelessWidget {
                           color: fundoTexto,
                           child: const Center(
                               child: Text(
-                                  'Instrutora: Vocês ja sabem como funciona assine a folha na direita se gostaram do curso. Ah ja ia me esquecendo, aqui não premiamos indecisos então se não se decidiu pode ir embora.',
+                                  '"Após passar por todas as mostras voce começa a ficar na duvida"',
                                   style: TextStyle(
                                       fontSize: 25, color: corTexto))),
                         ),
                         GestureDetector(
                             onTap: () {
-                              Navigator.of(context).pushNamed('/badEnding');
+                              Navigator.of(context).pushNamed('/escolha');
                             },
                             child: Container(
                               decoration: BoxDecoration(
@@ -43,13 +43,14 @@ class Grafo35 extends StatelessWidget {
                               height: (altura / 3) / 2,
                               width: MediaQuery.of(context).size.width,
                               child: const Center(
-                                  child: Text('Assinar folha',
+                                  child: Text('Rever algum curso.',
                                       style: TextStyle(
                                           fontSize: 25, color: corTexto))),
                             )),
                         GestureDetector(
                             onTap: () {
-                              Navigator.of(context).pushNamed('/good');
+                              Navigator.of(context).push(MaterialPageRoute(
+                                  builder: (context) => const Good2()));
                             },
                             child: Container(
                               decoration: BoxDecoration(
@@ -58,7 +59,7 @@ class Grafo35 extends StatelessWidget {
                               height: (altura / 3) / 2,
                               width: MediaQuery.of(context).size.width,
                               child: const Center(
-                                  child: Text('Ir embora.',
+                                  child: Text('Ir embora',
                                       style: TextStyle(
                                           fontSize: 25, color: corTexto))),
                             )),

@@ -142,7 +142,9 @@ flutter:
     - assets\images\fundoBadEnding.png
     - assets\images\formatura.png
     - assets\images\noctis.png
-    - assets\images\protoTipoFundo.png
+    - assets\images\GoodEscuro.png
+    - assets\images\GoodSala.png
+    - assets\images\GoodFim.png
   
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

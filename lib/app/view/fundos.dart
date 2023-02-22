@@ -994,3 +994,43 @@ class FundoFormatura extends StatelessWidget {
     ));
   }
 }
+
+class FundoGoodEscuro extends StatelessWidget {
+  const FundoGoodEscuro({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\GoodEscuro.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGoodSala extends StatelessWidget {
+  const FundoGoodSala({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\GoodSala.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoGoodFim extends StatelessWidget {
+  const FundoGoodFim({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\GoodFim.png'), fit: BoxFit.fill),
+    ));
+  }
+}
