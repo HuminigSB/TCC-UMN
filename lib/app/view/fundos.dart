@@ -548,20 +548,6 @@ class FundoFilaAnwudak extends StatelessWidget {
   }
 }
 
-class FundoFilaBealob extends StatelessWidget {
-  const FundoFilaBealob({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-        foregroundDecoration: const BoxDecoration(
-      image: DecorationImage(
-          image: AssetImage('assets\\images\\FilaBealob.png'),
-          fit: BoxFit.fill),
-    ));
-  }
-}
-
 class FundoFilaDaece extends StatelessWidget {
   const FundoFilaDaece({super.key});
 
@@ -571,6 +557,206 @@ class FundoFilaDaece extends StatelessWidget {
         foregroundDecoration: const BoxDecoration(
       image: DecorationImage(
           image: AssetImage('assets\\images\\FilaDaece.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoLista1 extends StatelessWidget {
+  const FundoLista1({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\Lista1.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoLista2 extends StatelessWidget {
+  const FundoLista2({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\Lista2.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoLista3 extends StatelessWidget {
+  const FundoLista3({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\Lista3.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoLista4 extends StatelessWidget {
+  const FundoLista4({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\Lista4.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoLista5 extends StatelessWidget {
+  const FundoLista5({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\Lista5.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoLista6 extends StatelessWidget {
+  const FundoLista6({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\Lista6.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoLista7 extends StatelessWidget {
+  const FundoLista7({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\Lista7.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoLista8 extends StatelessWidget {
+  const FundoLista8({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\Lista8.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoLista9 extends StatelessWidget {
+  const FundoLista9({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\Lista9.png'), fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoListaFinlas extends StatelessWidget {
+  const FundoListaFinlas({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\ListaFinlas.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoListaGiltaba extends StatelessWidget {
+  const FundoListaGiltaba({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\ListaGiltaba.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoListaTamanho extends StatelessWidget {
+  const FundoListaTamanho({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\ListaTamanho.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoListaSubs1 extends StatelessWidget {
+  const FundoListaSubs1({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\ListaSubs1.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoListaSubs2 extends StatelessWidget {
+  const FundoListaSubs2({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\ListaSubs2.png'),
+          fit: BoxFit.fill),
+    ));
+  }
+}
+
+class FundoListaFim extends StatelessWidget {
+  const FundoListaFim({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        foregroundDecoration: const BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage('assets\\images\\ListaFim.png'), fit: BoxFit.fill),
     ));
   }
 }

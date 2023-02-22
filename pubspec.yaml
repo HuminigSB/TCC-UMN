@@ -105,6 +105,22 @@ flutter:
     - assets\images\Fila8.png
     - assets\images\FilaAnwudak.png
     - assets\images\FilaDaece.png
+    - assets\images\Lista1.png
+    - assets\images\Lista2.png
+    - assets\images\Lista3.png
+    - assets\images\Lista4.png
+    - assets\images\Lista5.png
+    - assets\images\Lista6.png
+    - assets\images\Lista7.png
+    - assets\images\Lista8.png
+    - assets\images\Lista9.png
+    - assets\images\ListaTamanho.png
+    - assets\images\ListaFim.png
+    - assets\images\ListaFinlas.png
+    - assets\images\ListaGiltaba.png
+    - assets\images\ListaSubs1.png
+    - assets\images\ListaSubs2.png
+    - assets\images\bottonLista.png
     - assets\images\bottonPilha.png
     - assets\images\bottonArvore.png
     - assets\images\bottonFila.png

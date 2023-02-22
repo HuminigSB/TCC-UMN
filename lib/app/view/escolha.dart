@@ -21,7 +21,7 @@ class EscolhaGrafo extends StatelessWidget {
             height: (altura / 3),
             width: MediaQuery.of(context).size.width,
             child: const Center(
-                child: Text('Ir para mostra de pilha',
+                child: Text('Ir para mostra de grafo',
                     style: TextStyle(fontSize: 25, color: corTexto))),
           ));
     }
@@ -31,26 +31,161 @@ class EscolhaGrafo extends StatelessWidget {
 
 class Bottons extends StatelessWidget {
   const Bottons({super.key});
-//lista,pilha,fila,arvore--1234
-//pilha,lista,fila--214
-//pilha,lista,arvore--213
+//lista,pilha,fila,arvore-x-1234
 //lista,arvore,fila--134
-//lista,pilha,fila--124
-//lista,pilha,arvore--123
+//lista,pilha,fila-x-124
+//lista,pilha,arvore-x-123
 //pilha,arvore,fila-x-234
-//lista,fila--14
-//lista,arvore--13
-//lista,pilha--12
 //pilha,arvore-x-23
 //pilha,fila-x-24
 //fila,arvore-x-34
-//lista--1
+//lista,fila--14
+//lista,arvore-x-13
+//lista,pilha-x-12
+//lista-x-1
 //pilha-x-2
 //arvore-x-3
 //fila-x-4
 
   @override
   Widget build(BuildContext context) {
+    if (UsuarioControler.instance.getLista() &&
+        UsuarioControler.instance.getPilha() &&
+        UsuarioControler.instance.getArvore() &&
+        UsuarioControler.instance.getFila()) {
+      return Center(
+          child: Row(children: [
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonLista.png'),
+                  fit: BoxFit.fill),
+            )),
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonArvore.png'),
+                  fit: BoxFit.fill),
+            )),
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonPilha.png'),
+                  fit: BoxFit.fill),
+            )),
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonFila.png'),
+                  fit: BoxFit.fill),
+            ))
+      ]));
+    }
+
+    if (UsuarioControler.instance.getLista() &&
+        UsuarioControler.instance.getArvore() &&
+        UsuarioControler.instance.getFila()) {
+      return Center(
+          child: Row(children: [
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonLista.png'),
+                  fit: BoxFit.fill),
+            )),
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonArvore.png'),
+                  fit: BoxFit.fill),
+            )),
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonFila.png'),
+                  fit: BoxFit.fill),
+            ))
+      ]));
+    }
+
+    if (UsuarioControler.instance.getPilha() &&
+        UsuarioControler.instance.getLista() &&
+        UsuarioControler.instance.getFila()) {
+      return Center(
+          child: Row(children: [
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonLista.png'),
+                  fit: BoxFit.fill),
+            )),
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonPilha.png'),
+                  fit: BoxFit.fill),
+            )),
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonFila.png'),
+                  fit: BoxFit.fill),
+            ))
+      ]));
+    }
+
+    if (UsuarioControler.instance.getPilha() &&
+        UsuarioControler.instance.getArvore() &&
+        UsuarioControler.instance.getLista()) {
+      return Center(
+          child: Row(children: [
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonLista.png'),
+                  fit: BoxFit.fill),
+            )),
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonPilha.png'),
+                  fit: BoxFit.fill),
+            )),
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonArvore.png'),
+                  fit: BoxFit.fill),
+            ))
+      ]));
+    }
+
     if (UsuarioControler.instance.getPilha() &&
         UsuarioControler.instance.getArvore() &&
         UsuarioControler.instance.getFila()) {
@@ -78,6 +213,75 @@ class Bottons extends StatelessWidget {
             foregroundDecoration: const BoxDecoration(
               image: DecorationImage(
                   image: AssetImage('assets\\images\\bottonFila.png'),
+                  fit: BoxFit.fill),
+            ))
+      ]));
+    }
+
+    if (UsuarioControler.instance.getLista() &&
+        UsuarioControler.instance.getFila()) {
+      return Center(
+          child: Row(children: [
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonLista.png'),
+                  fit: BoxFit.fill),
+            )),
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonFila.png'),
+                  fit: BoxFit.fill),
+            ))
+      ]));
+    }
+
+    if (UsuarioControler.instance.getLista() &&
+        UsuarioControler.instance.getArvore()) {
+      return Center(
+          child: Row(children: [
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonLista.png'),
+                  fit: BoxFit.fill),
+            )),
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonArvore.png'),
+                  fit: BoxFit.fill),
+            ))
+      ]));
+    }
+
+    if (UsuarioControler.instance.getPilha() &&
+        UsuarioControler.instance.getLista()) {
+      return Center(
+          child: Row(children: [
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonLista.png'),
+                  fit: BoxFit.fill),
+            )),
+        Container(
+            height: MediaQuery.of(context).size.width / 3 / 4,
+            width: MediaQuery.of(context).size.width / 3 / 4,
+            foregroundDecoration: const BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets\\images\\bottonPilha.png'),
                   fit: BoxFit.fill),
             ))
       ]));
@@ -150,6 +354,18 @@ class Bottons extends StatelessWidget {
                   fit: BoxFit.fill),
             ))
       ]));
+    }
+
+    if (UsuarioControler.instance.getLista()) {
+      return Center(
+          child: Container(
+              height: MediaQuery.of(context).size.width / 3 / 4,
+              width: MediaQuery.of(context).size.width / 3 / 4,
+              foregroundDecoration: const BoxDecoration(
+                image: DecorationImage(
+                    image: AssetImage('assets\\images\\bottonPilha.png'),
+                    fit: BoxFit.fill),
+              )));
     }
 
     if (UsuarioControler.instance.getPilha()) {
