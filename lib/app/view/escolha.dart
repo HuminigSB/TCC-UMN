@@ -31,21 +31,6 @@ class EscolhaGrafo extends StatelessWidget {
 
 class Bottons extends StatelessWidget {
   const Bottons({super.key});
-//lista,pilha,fila,arvore-x-1234
-//lista,arvore,fila--134
-//lista,pilha,fila-x-124
-//lista,pilha,arvore-x-123
-//pilha,arvore,fila-x-234
-//pilha,arvore-x-23
-//pilha,fila-x-24
-//fila,arvore-x-34
-//lista,fila--14
-//lista,arvore-x-13
-//lista,pilha-x-12
-//lista-x-1
-//pilha-x-2
-//arvore-x-3
-//fila-x-4
 
   @override
   Widget build(BuildContext context) {
