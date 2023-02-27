@@ -14,7 +14,9 @@ class _LoginState extends State<Login> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(centerTitle: true, title: const Text('Login')),
+        appBar: AppBar(
+            centerTitle: true,
+            title: const Text('UMN: Uma aventura em outra dimensão')),
         body: Stack(children: [
           Opacity(
               opacity: 0.5,
@@ -31,15 +33,8 @@ class _LoginState extends State<Login> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      TextField(
-                        onChanged: (text) {
-                          usuario = text;
-                        },
-                        decoration: const InputDecoration(
-                            labelText: 'Usuário', border: OutlineInputBorder()),
-                      ),
-                      Container(
-                        height: 30,
+                      Image(
+                        image: AssetImage('assets\\images\\Logo.png'),
                       ),
                       Row(
                           mainAxisAlignment: MainAxisAlignment.center,
@@ -57,32 +52,17 @@ class _LoginState extends State<Login> {
                                   }
                                 }
                               },
-                              child: const Text('Entrar'),
+                              child: const Text('Continuar'),
                             ),
                             Container(
                               width: 15,
                             ),
                             ElevatedButton(
                               onPressed: () async {
-                                String usuario = await UsuarioControler.instance
-                                    .criaUsuario();
-                                showDialog<String>(
-                                  context: context,
-                                  builder: (BuildContext context) =>
-                                      AlertDialog(
-                                    content: Text(
-                                        'Guarde seu usuario!\nSeu usuário é: $usuario'),
-                                    actions: <Widget>[
-                                      TextButton(
-                                        onPressed: () =>
-                                            Navigator.pop(context, 'OK'),
-                                        child: const Text('OK'),
-                                      ),
-                                    ],
-                                  ),
-                                );
+                                await UsuarioControler.instance.criaUsuario();
+                                Navigator.of(context).pushNamed('/intro');
                               },
-                              child: const Text('criar usuário'),
+                              child: const Text('Novo Jogo'),
                             )
                           ]),
                     ]),

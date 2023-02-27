@@ -1,13 +1,8 @@
 class Usuario {
-  String? usuario;
   bool lista = false;
   bool arvore = false;
   bool pilha = false;
   bool fila = false;
-
-  String? getUsuario() {
-    return usuario;
-  }
 
   bool getLista() {
     return lista;
@@ -23,10 +18,6 @@ class Usuario {
 
   bool getFila() {
     return fila;
-  }
-
-  void setUsuario(usuario) {
-    this.usuario = usuario;
   }
 
   void setLista(lista) {

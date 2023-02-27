@@ -1,14 +1,19 @@
 import 'dart:convert';
+import 'package:path_provider/path_provider.dart';
+import 'dart:io';
 
 import 'package:tcc/app/model/usuario_model.dart';
-import 'package:http/http.dart' as http;
+
+Future<String> get pathFind async {
+  final directory = await getApplicationDocumentsDirectory();
+  return directory.path;
+}
 
 class UsuarioControler {
   Usuario user = Usuario();
   static UsuarioControler instance = UsuarioControler();
 
   Future completarRota(num rota) async {
-    var usuario = user.getUsuario();
     if (rota == 1) {
       user.setLista('true');
     }
@@ -21,9 +26,10 @@ class UsuarioControler {
     if (rota == 4) {
       user.setFila('true');
     }
-    var url = Uri.https(
-        '63c0d560376b9b2e646e3873.mockapi.io', '/UMN/Usuario/$usuario');
-    var response = await http.put(url, body: user.toJson());
+    final file = File('${await pathFind}\\data.json');
+    await file.delete();
+    await file.create();
+    await file.writeAsString(json.encode(user.toJson()));
   }
 
   bool rotasCompletas() {
@@ -57,28 +63,20 @@ class UsuarioControler {
   }
 
   Future<bool> logaUsuario(String usuario) async {
-    var url = Uri.https(
-        '63c0d560376b9b2e646e3873.mockapi.io', '/UMN/Usuario/$usuario');
-    var response = await http.get(url);
-    if (response.statusCode == 200) {
-      var jasonUsuario = jsonDecode(response.body);
-      user.setUsuario(usuario);
-      user.setLista(jasonUsuario['lista']);
-      user.setArvore(jasonUsuario['arvore']);
-      user.setPilha(jasonUsuario['pilha']);
-      user.setFila(jasonUsuario['fila']);
-      return true;
-    } else {
-      return false;
-    }
+    final file = File('${await pathFind}\\data.json');
+    var response = await file.readAsString();
+    var jasonUsuario = jsonDecode(response);
+    user.setLista(jasonUsuario['lista']);
+    user.setArvore(jasonUsuario['arvore']);
+    user.setPilha(jasonUsuario['pilha']);
+    user.setFila(jasonUsuario['fila']);
+    return true;
   }
 
-  Future<String> criaUsuario() async {
-    var url = Uri.https('63c0d560376b9b2e646e3873.mockapi.io', '/UMN/Usuario');
-    var response = await http.post(url, body: user.toJson());
-    var jasonUsuario = jsonDecode(response.body);
-    String usuario = jasonUsuario['id'];
-    user.setUsuario(usuario);
-    return usuario;
+  Future criaUsuario() async {
+    final file = File('${await pathFind}\\data.json');
+    await file.delete();
+    await file.create();
+    await file.writeAsString(json.encode(user.toJson()));
   }
 }
