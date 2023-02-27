@@ -28,7 +28,7 @@ class Lista24 extends StatelessWidget {
                           color: fundoTexto,
                           child: const Center(
                               child: Text(
-                                  'Instrutora: Após a demonstração quem decidiu por fazer o curso de lista assine a folha na direita da porta de saida, quem ainda não tem certeza de qual curso vai fazer pegue um botton na esquerda',
+                                  'Instrutora: Após a demonstração quem decidiu por fazer o curso de lista assine a folha na direita da porta de saída, quem ainda não tem certeza de qual curso vai fazer pegue um botton na esquerda.',
                                   style: TextStyle(
                                       fontSize: 25, color: corTexto))),
                         ),

@@ -29,7 +29,7 @@ class Lista9 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Instrutora: Agora turma os alunos que não estão na escada vão falar os nos vazios e os que estão na escada vão falar seu nome em ordem.',
+                                'Instrutora: Agora turma os alunos que não estão na escada vão falar os nós vazios e os que estão na escada vão falar seu nome em ordem.',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))
