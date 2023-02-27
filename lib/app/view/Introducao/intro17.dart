@@ -30,7 +30,7 @@ class Intro17 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Diretor: Se voce se tornar um nó sem proposito voce é destruido pelo coletor de lixo.',
+                                'Diretor: Se você se tornar um nó sem proposito, você é destruído pelo coletor de lixo.',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

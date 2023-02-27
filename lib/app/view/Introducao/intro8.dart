@@ -30,7 +30,7 @@ class Intro8 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Diretor: Por conta disso lembrem-se de pegar os comprovantes de participação das mostras.\nPodem ir às suas seções seguindo as indicações dos corredores.\n(o que é isso? acho que estou no lugar errado. Esse diretor parece saber das coisas vou falar com ele.)',
+                                'Diretor: Por conta disso lembrem-se de pegar os comprovantes de participação das mostras.\nPodem ir às suas seções seguindo as indicações dos corredores.\n(o que é isso? Acho que estou no lugar errado. Esse diretor parece saber das coisas, vou falar com ele.)',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

@@ -30,7 +30,7 @@ class Intro14 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Eu: Acho que houve algum engano, eu nunca ouvi falar desse lugar e porque todos aqui são bolas brancas?\nDiretor: Acho que entendo o seu caso você é humano?',
+                                'Eu: Acho que houve algum engano, eu nunca ouvi falar desse lugar e por que todos aqui são bolas brancas?\nDiretor: Acho que entendo o seu caso, você é humano?',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

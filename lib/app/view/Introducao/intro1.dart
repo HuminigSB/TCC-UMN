@@ -30,7 +30,7 @@ class Intro1 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                '(onde é que eu to? que lugar é esse?\nahhhhh! o que aconteceu comigo?)',
+                                '(onde é que eu to? Que lugar é esse?\nahhhhh! O que aconteceu comigo?)',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

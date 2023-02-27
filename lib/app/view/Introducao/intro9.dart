@@ -29,7 +29,7 @@ class Intro9 extends StatelessWidget {
                         height: MediaQuery.of(context).size.height / 4,
                         color: fundoTexto,
                         child: const Center(
-                            child: Text('“se aproxima do diretor”',
+                            child: Text('“Se aproxima do diretor”',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))
