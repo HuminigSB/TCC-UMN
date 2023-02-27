@@ -13,7 +13,7 @@ class Fila25 extends StatelessWidget {
     return Scaffold(
         body: Stack(
       children: [
-        const FundoArvore7(),
+        const FundoFila1(),
         Opacity(
             opacity: 0.9,
             child: Column(
