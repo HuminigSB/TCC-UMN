@@ -7,7 +7,7 @@ import 'package:tcc/app/view/Grafo/grafo1.dart';
 import 'package:tcc/app/view/Lista/lista1.dart';
 import 'package:tcc/app/view/Pilha/pilha1.dart';
 import 'package:tcc/app/view/escolha.dart';
-import 'package:tcc/app/view/login_page.dart';
+import 'package:tcc/app/view/home.dart';
 import 'package:tcc/app/view/Introducao/intro1.dart';
 
 final Map<int, Color> fundoTextoMap = {
@@ -38,7 +38,7 @@ class App extends StatelessWidget {
       theme: ThemeData(primarySwatch: verde),
       initialRoute: '/',
       routes: {
-        '/': (context) => const Login(),
+        '/': (context) => const Home(),
         '/intro': (context) => const Intro1(),
         '/lista': (context) => const Lista1(),
         '/arvore': (context) => const Arvore1(),

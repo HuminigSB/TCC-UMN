@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:tcc/app/controller/usuario_controller.dart';
 import 'package:tcc/app/view/app.dart';
 
-class Login extends StatefulWidget {
-  const Login({super.key});
+class Home extends StatefulWidget {
+  const Home({super.key});
 
   @override
-  State<Login> createState() => _LoginState();
+  State<Home> createState() => _HomeState();
 }
 
-class _LoginState extends State<Login> {
+class _HomeState extends State<Home> {
   String usuario = '';
   @override
   Widget build(BuildContext context) {
