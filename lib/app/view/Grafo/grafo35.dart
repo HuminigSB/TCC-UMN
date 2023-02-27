@@ -28,7 +28,7 @@ class Grafo35 extends StatelessWidget {
                           color: fundoTexto,
                           child: const Center(
                               child: Text(
-                                  'Instrutora: Vocês ja sabem como funciona assine a folha na direita se gostaram do curso. Ah ja ia me esquecendo, aqui não premiamos indecisos então se não se decidiu pode ir embora.',
+                                  'Instrutora: Vocês já sabem como funciona assine a folha na direita se gostaram do curso. Ah, já ia me esquecendo, aqui não premiamos indecisos, então se não se decidiu pode ir embora.',
                                   style: TextStyle(
                                       fontSize: 25, color: corTexto))),
                         ),
@@ -58,7 +58,7 @@ class Grafo35 extends StatelessWidget {
                               height: (altura / 3) / 2,
                               width: MediaQuery.of(context).size.width,
                               child: const Center(
-                                  child: Text('Ir embora.',
+                                  child: Text('Ir embora',
                                       style: TextStyle(
                                           fontSize: 25, color: corTexto))),
                             )),
