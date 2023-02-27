@@ -30,7 +30,7 @@ class Fila2 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Instrutora: Começaremos pela função mais basica de uma fila, Daece enfileirar.',
+                                'Instrutora: Começaremos pela função mais básica de uma fila, Daece enfileirar.',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

@@ -30,7 +30,7 @@ class Fila6 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Instrutora: Como podem ver sempre que um nó é enfileirado ele entra no fim da fila, agora vamos relembrar os elementos da fila, estudades digam os nomes na ordem da fila.',
+                                'Instrutora: Como podem ver sempre que um nó é enfileirado ele entra no fim da fila, agora vamos relembrar os elementos da fila, estudantes digam os nomes na ordem da fila.',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

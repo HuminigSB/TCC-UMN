@@ -30,7 +30,7 @@ class Fila11 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Instrutora: Otimo turma, agora poderiam me infromar se a fila esta vazia?',
+                                'Instrutora: Ótimo, turma, agora poderiam me informar se a fila esta vazia?',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))
