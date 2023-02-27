@@ -30,7 +30,7 @@ class Pilha15 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Instrutora: Quem está no topo da pilha?\nJohan, Alex, Dominique: Alex!\nInstrutora: Como está a pilha?\nJohan, Alex, Dominique: Nem cheia nem vazia!',
+                                'Instrutora: Quem está no topo da pilha?\nJohan, Alex, Dominique: Alex!\nInstrutora: Como está a pilha?\nJohan, Alex, Dominique: Nem cheia, nem vazia!',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))
