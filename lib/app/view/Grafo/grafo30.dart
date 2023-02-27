@@ -30,7 +30,7 @@ class Grafo30 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Instrutora: Turma qual o nome desse tipo de grafo que tem pedaços?',
+                                'Instrutora: Turma qual o nome desse tipo de grafo com pedaços?',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

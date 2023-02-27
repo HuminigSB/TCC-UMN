@@ -30,7 +30,7 @@ class Grafo18 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Adanxohad,Gravi,Riobi,Curugaer: Quatro!',
+                                'Adanxohad, Gravi, Riobi, Curugaer: Quatro!',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

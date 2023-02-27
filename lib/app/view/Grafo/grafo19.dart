@@ -30,7 +30,7 @@ class Grafo19 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Instrutora: O grau de vertice é no caso dessa demonstração é a quantia de arestas, fitas ligadas a cada verticie, nó pois na demontração estamos trabalhando apenas com o grafo não dirigido que é um pouco mais simples.',
+                                'Instrutora: O grau de vértice é no caso dessa demonstração é a quantia de arestas/fitas ligadas a cada vértice/nó, pois na demonstração estamos trabalhando apenas com o grafo não dirigido que é um pouco mais simples.',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

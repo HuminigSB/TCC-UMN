@@ -30,7 +30,7 @@ class Grafo32 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Instrutora: Certo agora peguem a fita vermelha de volta.',
+                                'Instrutora: Certo, agora peguem a fita vermelha de volta.',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

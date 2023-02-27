@@ -30,7 +30,7 @@ class Grafo10 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Instrutora: Qual o tamnaho desse caminho?',
+                                'Instrutora: Qual o tamanho desse caminho?',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

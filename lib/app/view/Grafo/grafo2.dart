@@ -29,7 +29,7 @@ class Grafo2 extends StatelessWidget {
                         height: MediaQuery.of(context).size.height / 4,
                         color: fundoTexto,
                         child: const Center(
-                            child: Text('Instrutora: Turma pra pscina.',
+                            child: Text('Instrutora: Turma para piscina.',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

@@ -30,7 +30,7 @@ class Grafo22 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Instrutora: E Riobi qual seu grau de vertice?',
+                                'Instrutora: E Riobi qual seu grau de vértice?',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))
