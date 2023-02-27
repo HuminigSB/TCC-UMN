@@ -30,7 +30,7 @@ class Arvore11 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Zugan: Como não possuo descendetes não possuo subarvores, logo meu grau é 0 e isso me faz um nó folha.',
+                                'Zugan: Como não possuo descendentes, não possuo subárvores, logo meu grau é 0 e isso me faz um nó folha.',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

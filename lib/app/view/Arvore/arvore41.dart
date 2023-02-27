@@ -29,7 +29,7 @@ class Arvore41 extends StatelessWidget {
                           color: fundoTexto,
                           child: const Center(
                               child: Text(
-                                  'Instrutora: Quem decidiu por fazer o curso de árvore assine a folha na direita da porta de saida, quem ainda não tem certeza de qual curso vai fazer pegue um botton na esquerda',
+                                  'Instrutora: Quem decidiu por fazer o curso de árvore assine a folha na direita da porta de saída, quem ainda não tem certeza de qual curso vai fazer pegue um botton na esquerda.',
                                   style: TextStyle(
                                       fontSize: 25, color: corTexto))),
                         ),

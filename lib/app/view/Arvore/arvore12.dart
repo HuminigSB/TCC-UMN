@@ -30,7 +30,7 @@ class Arvore12 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Instrutora: Heico, qua seu tipo de nó?',
+                                'Instrutora: Heico, qual seu tipo de nó?',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

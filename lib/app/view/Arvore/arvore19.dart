@@ -30,7 +30,7 @@ class Arvore19 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                'Ergdulg: Como sou a raiz da árvore, minha altura é a altura da árvore ou seja 2.',
+                                'Ergdulg: Como sou a raiz da árvore, minha altura é a altura da árvore, ou seja 2.',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))
