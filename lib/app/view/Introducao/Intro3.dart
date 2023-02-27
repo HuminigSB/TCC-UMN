@@ -36,7 +36,7 @@ class Intro3 extends StatelessWidget {
                         height: MediaQuery.of(context).size.height / 4,
                         color: fundoTexto,
                         child: const Center(
-                            child: Text('(...)',
+                            child: Text('...',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))
