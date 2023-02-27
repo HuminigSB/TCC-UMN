@@ -28,7 +28,7 @@ class Good4 extends StatelessWidget {
                         height: MediaQuery.of(context).size.height / 4,
                         color: fundoTexto,
                         child: const Center(
-                            child: Text('(Ahh! A aula acabou eu to lascado.)',
+                            child: Text('(Ahh! A aula acabou eu tô lascado.)',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

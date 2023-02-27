@@ -28,7 +28,7 @@ class Good1 extends StatelessWidget {
                           color: fundoTexto,
                           child: const Center(
                               child: Text(
-                                  '"Após passar por todas as mostras voce começa a ficar na duvida"',
+                                  '"Após passar por todas as mostras você começa a ficar na dúvida"',
                                   style: TextStyle(
                                       fontSize: 25, color: corTexto))),
                         ),
@@ -43,7 +43,7 @@ class Good1 extends StatelessWidget {
                               height: (altura / 3) / 2,
                               width: MediaQuery.of(context).size.width,
                               child: const Center(
-                                  child: Text('Rever algum curso.',
+                                  child: Text('Rever algum curso',
                                       style: TextStyle(
                                           fontSize: 25, color: corTexto))),
                             )),

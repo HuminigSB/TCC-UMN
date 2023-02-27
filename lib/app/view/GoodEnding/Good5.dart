@@ -30,7 +30,7 @@ class Good5 extends StatelessWidget {
                           height: (altura / 3) / 2,
                           width: MediaQuery.of(context).size.width / 2,
                           child: const Center(
-                              child: Text('Voltar ao inicio.',
+                              child: Text('Voltar ao início',
                                   style: TextStyle(
                                       fontSize: 25, color: corTexto))),
                         )),
@@ -45,7 +45,7 @@ class Good5 extends StatelessWidget {
                           height: (altura / 3) / 2,
                           width: MediaQuery.of(context).size.width / 2,
                           child: const Center(
-                              child: Text('Voltar a escolha de cursos.',
+                              child: Text('Voltar a escolha de cursos',
                                   style: TextStyle(
                                       fontSize: 25, color: corTexto))),
                         )),

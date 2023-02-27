@@ -29,7 +29,7 @@ class Good2 extends StatelessWidget {
                         color: Colors.blueGrey,
                         child: const Center(
                             child: Text(
-                                '"Qaundo você atravessa a porta de saida, tudo se escurece"',
+                                '"Quando você atravessa a porta de saída, tudo se escurece"',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))

@@ -29,7 +29,7 @@ class Good3 extends StatelessWidget {
                         color: fundoTexto,
                         child: const Center(
                             child: Text(
-                                '(Uhh! Não acredito eu dormi na aula denovo. Cade todo mundo?)',
+                                '(Uhh! Não acredito eu dormi na aula de novo. Cade todo mundo?)',
                                 style:
                                     TextStyle(fontSize: 25, color: corTexto))),
                       ))
